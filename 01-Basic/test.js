@@ -1,17 +1,17 @@
-const accountId  = "abc123";
-let accountEmail = "jayesh@yahoo.com";
-var accountpassword = "12345";
-accountCity = "Burhnapur"
+const accountId = 12345
+let accountEmail = "jayesh@google.com";
+var accountName =  "jayeshWadhe";
+accountCity = "burhanpur";
 
-//accountId = "123" => Not allowed to update const value.
-accountEmail = "hdd@yahoo.com",
-accountpassword = "jaishreeram",
-accountCity = "vapi"
+//accountId = 2345
+accountEmail = "wadhe@gmail.com";
+accountName = "wadheJayesh";
+accountCity = "Indore";
 
-console.log(accountCity)
+console.log(accountId);
 /*
 Prefer not to use var in production code
 because from that it will create issue in block scope.
 */
 
-console.table([accountId,accountEmail, accountpassword, accountCity])
+console.table([accountId, accountEmail, accountName, accountCity])

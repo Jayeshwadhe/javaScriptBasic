@@ -2,7 +2,7 @@
 
 // alert (3 + 3); //we are not using node.js, not browser;
 
-let stage = null; // null typeof is object;
-
-console.log(stage);
-console.log(typeof stage)
+let stage = 54; // null typeof is object;
+console.log(stage)
+let stagess = String(stage);
+console.log(typeof (stage))
